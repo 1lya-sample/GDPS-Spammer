@@ -1,2 +1,2 @@
-# Sample-s-GDPS-Spammer
+# Sample's GDPS Spammer
 Universal GDPS spammer by me
