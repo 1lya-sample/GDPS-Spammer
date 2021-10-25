@@ -5,9 +5,9 @@ def createAcc(userName, email):
     endpoint = database
     rstr = str(random.randint(1111111, 9999999))
     data = {
-        'userName':userName+rstr, 
-        'password':rstr, 
-        'email':rstr+email, 
+        'userName': userName+rstr, 
+        'password': rstr, 
+        'email': rstr+email, 
         'secret': 'Wmfv3899gc9'
     }
     headers = {'User-Agent': ''}
