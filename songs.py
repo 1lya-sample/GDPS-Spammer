@@ -11,7 +11,7 @@ async def getSong(sid):
 
 startpos = 600000
 endpos = 99999999
-print("Sample's GDPS Account Spammer") 
+print("Sample's GDPS Songs Spammer") 
 database = input("database url (for example: http://ps.fhgdps.com/Geometrykras/): ")
 while startpos <= endpos:
     asyncio.run(getSong(startpos))
