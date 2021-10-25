@@ -5,7 +5,8 @@ async def getSong(sid):
     data = {
         'songID': sid
     }
-    r = requests.post(endpoint+"getGJSongInfo.php", data=data)
+    headers = {'User-Agent': ''}
+    r = requests.post(endpoint+"getGJSongInfo.php", data=data, headers=headers)
     print(r.text)
 
 startpos = 600000
