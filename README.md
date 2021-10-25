@@ -4,9 +4,8 @@ Universal GDPS spammer by me for shkolo privates.
 Wokring now files:
 - accounts.py
 - songs.py (very slowly)
-
-Future:
-- users.py
+- levels.py (description not working)
+- users.py! (NEW)
 
 To spam:
 1. download Python;
