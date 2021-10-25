@@ -25,7 +25,7 @@ def generateUDID():
     udid = "S"+str(rand(111111111, 999999999))+str(rand(111111111, 999999999))+str(rand(111111111, 999999999))+str(rand(111111111, 999999999))+str(rand(1,9))
     return udid
 
-print("Sample's GDPS Level Spammer") 
+print("Sample's GDPS Levels Spammer") 
 database = input("database url (for example: http://ps.fhgdps.com/Geometrykras/): ")
 userName = input("custom username: ")
 levelName = input("custom levelname: ")
