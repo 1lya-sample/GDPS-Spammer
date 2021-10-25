@@ -1,7 +1,7 @@
 import requests
 from random import randint as rand
 
-def createAcc(userName, stars, demons, udid):
+def createUser(userName, stars, demons, udid):
     endpoint = database
     data = {
         'userName': userName, 
@@ -20,12 +20,12 @@ def generateUDID():
     udid = "S"+str(rand(111111111, 999999999))+str(rand(111111111, 999999999))+str(rand(111111111, 999999999))+str(rand(111111111, 999999999))+str(rand(1,9))
     return udid
     
-print("Sample's GDPS Account Spammer") 
+print("Sample's GDPS Users Spammer") 
 database = input("database url (for example: http://ps.fhgdps.com/Geometrykras/): ")
 userName = input("custom username: ")
 stars = input("custom number of stars: ")
 demons = input("custom number of demons: ")
 
 while True:
-    print(createAcc(userName, stars, demons, generateUDID()))
+    print(createUser(userName, stars, demons, generateUDID()))
     
