@@ -9,7 +9,7 @@ async def getSong(sid):
     r = requests.post(endpoint+"getGJSongInfo.php", data=data, headers=headers)
     print(r.text)
 
-startpos = 600000
+startpos = 1
 endpos = 99999999
 print("Sample's GDPS Songs Spammer") 
 database = input("database url (for example: http://ps.fhgdps.com/Geometrykras/): ")
