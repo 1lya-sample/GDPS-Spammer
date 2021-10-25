@@ -14,7 +14,7 @@ def createAcc(userName, email):
     r = requests.post(endpoint+"accounts/registerGJAccount.php", data=data, headers=headers)
     return r.text
     
-print("Sample's GDPS Account Spammer") 
+print("Sample's GDPS Accounts Spammer") 
 database = input("database url (for example: http://ps.fhgdps.com/Geometrykras/): ")
 userName = input("custom username before numbers: ")
 email = input("custom email after numbers: ")
