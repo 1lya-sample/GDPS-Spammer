@@ -3,7 +3,7 @@ Universal GDPS spammer by me for shkolo privates.
 
 Wokring now files:
 - accounts.py
-- songs.py
+- songs.py (very slowly)
 
 Future:
 - users.py
