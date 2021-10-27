@@ -7,7 +7,7 @@ def createAcc(userName, email):
     data = {
         'userName': userName+rstr, 
         'password': rstr, 
-        'email': rstr+email, 
+        'email': rstr+'@'+email,
         'secret': 'Wmfv3899gc9'
     }
     headers = {'User-Agent': ''}
